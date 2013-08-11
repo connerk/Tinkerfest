@@ -3,5 +3,36 @@ the intent originated as a need for simple to import shapes to use in teaching p
 
 DXF files can be generated in Inkscape using images or shapes imported
 
-Creating a DXF file in Inkscape
-locate an image from any source.  The simpler the image, the simpler it will be to convert.
+###Standards:###
+Image shape is 150x150mm
+All images are on their own layer.
+the beginning X/Y coordinates are 0,0.
+
+
+
+###Creating a DXF file in Inkscape:###
+Locate an image from any source.  The simpler the image, the simpler it will be to convert. 
+	The easiest to work with images tagged as solouhettes or stencils.
+Create a new layer in Inkscape with a title to match the image.  
+	Title will be all lower case with no spaces.  a single word is best. i.e. "cat" "star" not "Bunny Rabbit"
+Import it into Inkscape by dragging and dropping.
+Select "Trace Bitmap" from the "Path" menu
+Select the "Edit Paths By Nodes" tool (F2)
+Select any nodes you do not wish to keep and press delete to remove them
+Select the entire image, and thus all nodes.
+Remove the original traced image
+	Move the entire selection off of the traced image.
+	Select the "Select and Transform" tool.
+	Select and delete the original image.
+	Return to the node edit tool.
+Select the entire image, and thus all nodes.
+Click "Insert new nodes in into selected segments. 
+	This effects the resolution of your image. 
+	Since splines are not supported by OpenSCAD, the line between each node will be straight.  
+	More nodes means higher resolution. 
+	Keep in mind that a printer can only print so well anyhow before trying to render 10k nodes!
+Click "Make Selected Segments Lines" to remove splines.
+Move image to X=0, Y=0, 
+Resize to X=150, Y=150 (Lock perspective if you wish and size to maximize as required)
+Lock layer and turn off visibility to import more images on new layers if desired
+
