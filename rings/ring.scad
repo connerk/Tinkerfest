@@ -12,7 +12,8 @@ phi = 1.618; //do not change
 
 pi = 3.141; //do not change
 
-include <write.scad>
+use <write.scad>
+use <..\DXF_Library\DXFStamp.scad>
 
 t=2;
 
@@ -20,7 +21,7 @@ t=2;
 
 ring = 1;
 
-		$fn = 30;
+		$fn = 40;
 		
 		inner_diameter = 20;
 		
@@ -57,15 +58,17 @@ diamond = 0;
 
 		base_plate_thickness = 2;
 
-name_plate = 1;
-
+plate = 1;
+		
 		name_plate_diameter = 10; //15 max
-	
+				
+		add_word = 0; //if this is 1, you can type a word. if this is zero you can choose a shape
+		
 		word = "Pat"; //5 letters max
 		
+		shape = "heart"; //available shapes are HEART, CAT, and STAR
+		
 		plate_thickness = 1.5;
-
-
 
 spiral = 0;
 		
@@ -93,7 +96,7 @@ module rendered(){
 
 module pendant_base(){
 	if(diamond) diamondMod();
-	if(name_plate) name_plateMod();
+	if(plate) plateMod();
 }
 
 module clasp(){
@@ -104,7 +107,7 @@ module clasp(){
 				r=clasp_loop_size+clasp_loop_thickness);
 				translate([0,0,-.5])
 					cylinder(clasp_width+1,r=clasp_loop_size);
-				if(name_plate){
+				if(plate){
 					translate([0,-clasp_loop_size-clasp_loop_thickness,-.5])
 						cube([(clasp_loop_size+clasp_loop_thickness),
 						(clasp_loop_size+clasp_loop_thickness)*2,
@@ -128,7 +131,7 @@ module ring_base(){
 		}
 	{
 		if(diamond)diamondMod();
-		if(name_plate) name_plateMod();
+		if(plate) plateMod();
 	}
 }
 
@@ -154,11 +157,12 @@ module diamondMod(){
 	}
 }
 
-module name_plateMod(){
+module plateMod(){
 	difference(){
 		cylinder(plate_thickness,r=name_plate_diameter/2);
 		rotate([0,180,0])
-			write(word,center=true);
+			if(add_word)write(word,center=true);
+			if(!add_word)translate([0,0,-.01])stamp(shape,name_plate_diameter*.8,name_plate_diameter*.8,plate_thickness-1);
 	}
 	if(ring){
 		translate([0,0,plate_thickness])
@@ -168,6 +172,7 @@ module name_plateMod(){
 		translate([0,name_plate_diameter/2-(clasp_loop_size+clasp_loop_thickness)-.25,plate_thickness])
 			clasp();
 	}
+	
 }
 
 module spiralMod(){
