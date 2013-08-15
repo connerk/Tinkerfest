@@ -10,7 +10,21 @@ module stamp(shape,x,y,z){
 
 module available_shapes(){
 	echo("Please choose one of the following available shapes");
-	for(i=["star","heart","cat"]){
+	for(i=["star",
+				"heart",
+				"cat",
+				"fallout",
+				"ironman",
+				"hellokitty",
+				"stormtrooper",
+				"mushroom"]){
 		echo(i);
 	}
 }
+
+
+stamp("crosshair",150,150,2);
+
+x = 150;
+y = 150;
+z = 2;
