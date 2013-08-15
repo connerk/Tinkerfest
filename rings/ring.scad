@@ -19,6 +19,7 @@ t=2;
 
 ///////////////////////////////////////////////////////////////////////////////parameters///////////////////////////////////////////////////////////////////
 
+
 ring = 1;
 
 		$fn = 40;
@@ -27,17 +28,17 @@ ring = 1;
 		
 		ring_size = [2,5];
 		
-		pin_height = 5; //do not change
+		pin_height = 4; //do not change
 		
-		pin_diameter = 3.5; //do not change
+		pin_diameter = 3; //do not change
 
 pendant = 0;
 
 		clasp_width = 2;
 
-		clasp_loop_size = 2;
+		clasp_loop_size = 1.5;
 
-		clasp_loop_thickness = 1;
+		clasp_loop_thickness = .5;
 
 
 diamond = 0;
@@ -60,13 +61,13 @@ diamond = 0;
 
 plate = 1;
 		
-		name_plate_diameter = 10; //15 max
+		name_plate_diameter = 12; //15 max
 				
 		add_word = 0; //if this is 1, you can type a word. if this is zero you can choose a shape
 		
 		word = "Pat"; //5 letters max
 		
-		shape = "heart"; //available shapes are HEART, CAT, and STAR
+		shape = "skullbones"; //available shapes are HEART, CAT, and STAR
 		
 		plate_thickness = 1.5;
 
@@ -162,7 +163,7 @@ module plateMod(){
 		cylinder(plate_thickness,r=name_plate_diameter/2);
 		rotate([0,180,0])
 			if(add_word)write(word,center=true);
-			if(!add_word)translate([0,0,-.01])stamp(shape,name_plate_diameter*.8,name_plate_diameter*.8,plate_thickness-1);
+			if(!add_word)translate([name_plate_diameter*.4,name_plate_diameter*.4,-.01])#stamp(shape,name_plate_diameter*.8,name_plate_diameter*.8,plate_thickness-1);
 	}
 	if(ring){
 		translate([0,0,plate_thickness])

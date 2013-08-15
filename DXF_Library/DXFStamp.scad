@@ -1,3 +1,8 @@
+
+x = 150;
+y = 150;
+z = 2;
+
 module stamp(shape,x,y,z){
 	translate([-x/2,-y/2,0]){
 		scale([x/150,y/150,1]){	
@@ -23,8 +28,5 @@ module available_shapes(){
 }
 
 
-stamp("crosshair",150,150,2);
+stamp("m4",150,150,2);
 
-x = 150;
-y = 150;
-z = 2;
