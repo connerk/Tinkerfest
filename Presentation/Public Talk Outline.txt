@@ -1,0 +1,47 @@
+Rogue Hack Lab - roguehacklab.com
+Science Works - scienceworksmuseum.org
+Tinkerfest - http://scienceworksmuseum.org/Page.asp?NavID=704
+
+3D Printing
+
+##Past
+1. What is 3D printing?
+
+2. How does it work?
+	a. compare additive v. subtractive manufacturing
+	b. 
+	
+3. How long has it been around?
+	a. historic use in prototyping
+	
+4. Different methods
+	a. FDM
+	b. SLA
+	c. SLS / DMLS
+	d. Z-Corp multicolor
+	e. Objet multi-material
+	
+	
+5. Advantages
+	a. cheaper for short run production
+	b. quicker design cycle by prototyping in-house
+	c. ability to generate structures too complex for subtractive manufacuring
+	
+6. Disadvantages
+
+##Present
+1. DIY movement & Open source initiatives
+	a. software
+	b. hardware
+	c. abiltiy to make entirely custom products
+
+2. RepRap / 
+
+3. Software/production chain
+
+4. 
+
+##Future
+1. Different types of FDM robotics
+
+2. DIY
