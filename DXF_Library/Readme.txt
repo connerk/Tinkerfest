@@ -4,7 +4,7 @@ the intent originated as a need for simple to import shapes to use in teaching p
 DXF files can be generated in Inkscape using images or shapes imported
 
 ###Standards:###
-Image shape is 150x150mm
+Image shape is 150mmx150mm
 All images are on their own layer.
 the beginning X/Y coordinates are 0,0.
 
