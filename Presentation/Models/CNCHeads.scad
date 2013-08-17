@@ -54,7 +54,7 @@ module nozzle(){
 
 module barrel(){
 	difference(){
-		cylinder(15,r=4, $fn=70);
+		cylinder(15,r=4, $fn=50);
 		translate([0,0,14])rotate([180,0,0])cylinder_chamfer(4,1);
 		cylinder(15,r=1.75, $fn=30);
 	}

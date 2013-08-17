@@ -33,9 +33,10 @@ Tinkerfest - http://scienceworksmuseum.org/Page.asp?NavID=704
 1. DIY movement & Open source initiatives
 	a. software
 	b. hardware
-	c. abiltiy to make entirely custom products
+	c. ability to make entirely custom products
 
 2. RepRap / 
+	a. Different types of printable substances
 
 3. Software/production chain
 
@@ -43,5 +44,12 @@ Tinkerfest - http://scienceworksmuseum.org/Page.asp?NavID=704
 
 ##Future
 1. Different types of FDM robotics
+	Delta-Bot
+	Simpson
+	
 
-2. DIY
+2. Different types of printers being made DIY and at-home-prices
+	SLS - sand printer
+	SLA - Lemon Curry
+
+3. DIY
