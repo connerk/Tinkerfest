@@ -1,0 +1,20 @@
+group() {
+	multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
+		group() {
+			color([0.662745, 0.662745, 0.662745, 1]) {
+				import(file = "FDMNozzle.stl", layer = "", origin = [0, 0], scale = 1, convexity = 1, $fn = 0, $fa = 12, $fs = 2, timestamp = 1376639001);
+			}
+			multmatrix([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 9], [0, 0, 0, 1]]) {
+				color([0.823529, 0.705882, 0.54902, 1]) {
+					import(file = "FDMBarrel.stl", layer = "", origin = [0, 0], scale = 1, convexity = 1, $fn = 0, $fa = 12, $fs = 2, timestamp = 1376639037);
+				}
+			}
+		}
+	}
+	intersection() {
+		multmatrix([[1, 0, 0, -41.5], [0, 1, 0, -41.5], [0, 0, 1, -0.1], [0, 0, 0, 1]]) {
+			cube(size = [83, 83, 0], center = false);
+		}
+		import(file = "cuteocto.stl", layer = "", origin = [0, 0], scale = 1, convexity = 1, $fn = 0, $fa = 12, $fs = 2, timestamp = 1376639881);
+	}
+}
