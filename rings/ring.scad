@@ -67,7 +67,7 @@ plate = 1;
 		
 		word = "Pat"; //5 letters max
 		
-		shape = "skullbones"; //available shapes are HEART, CAT, and STAR
+		shape = "heart"; //available shapes are HEART, CAT, and STAR
 		
 		plate_thickness = 1.5;
 
