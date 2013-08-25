@@ -1,0 +1,14 @@
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\slider cursor.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\GUI window front end.exe
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\GUI window front end.pdb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\obj\x86\Debug\GUI window front end.csprojResolveAssemblyReference.cache
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\obj\x86\Debug\GUI window front end.exe
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\obj\x86\Debug\GUI window front end.pdb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\small slider cursor.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\small mouse cursor.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\slider bar.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\transparant.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\white.xnb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\crash.xnb
