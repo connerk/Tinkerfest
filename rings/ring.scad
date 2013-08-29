@@ -65,9 +65,9 @@ plate = 1;
 				
 		add_word = 0; //if this is 1, you can type a word. if this is zero you can choose a shape
 		
-		word = "Pat"; //5 letters max
+		word = "Neal"; //5 letters max
 		
-		shape = "heart"; //available shapes are HEART, CAT, and STAR
+		shape = "skullbones"; //available shapes are HEART, CAT, and STAR
 		
 		plate_thickness = 1.5;
 
