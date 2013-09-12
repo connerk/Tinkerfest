@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>slider cursor.png</Source>
+      <Name>slider cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\slider cursor.xnb</Output>
+      <Time>2013-08-22T17:50:14.824-07:00</Time>
+    </Item>
+    <Item>
+      <Source>small slider cursor.png</Source>
+      <Name>small slider cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\small slider cursor.xnb</Output>
+      <Time>2013-08-22T18:06:16.861-07:00</Time>
+    </Item>
+    <Item>
+      <Source>small mouse cursor.png</Source>
+      <Name>small mouse cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\small mouse cursor.xnb</Output>
+      <Time>2013-08-22T18:36:48.632-07:00</Time>
+    </Item>
+    <Item>
+      <Source>slider bar.png</Source>
+      <Name>slider bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\slider bar.xnb</Output>
+      <Time>2013-08-22T19:25:07.423-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2013-08-22T21:06:30.13-07:00</Time>
+    </Item>
+    <Item>
+      <Source>transparant.png</Source>
+      <Name>transparant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\transparant.xnb</Output>
+      <Time>2013-08-22T20:59:29.693-07:00</Time>
+    </Item>
+    <Item>
+      <Source>white.png</Source>
+      <Name>white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\white.xnb</Output>
+      <Time>2013-08-22T21:31:24.409-07:00</Time>
+    </Item>
+    <Item>
+      <Source>crash.wav</Source>
+      <Name>crash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\crash.xnb</Output>
+      <Time>2013-08-22T22:17:47.375-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front endContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front endContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\GUI window front end\GUI window front end\GUI window front end\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-06-12T15:30:55.4462-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

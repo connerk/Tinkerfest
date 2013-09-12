@@ -7,3 +7,6 @@ C:\Users\KEVIN\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\bin\Deb
 C:\Users\KEVIN\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\bin\Debug\ToyGenerator.pdb
 C:\Users\KEVIN\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\obj\Debug\ToyGenerator.exe
 C:\Users\KEVIN\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\obj\Debug\ToyGenerator.pdb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\bin\Debug\ToyGenerator.exe.config
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\obj\Debug\ToyGenerator.exe
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\ToyGenerator\ToyGenerator\obj\Debug\ToyGenerator.pdb

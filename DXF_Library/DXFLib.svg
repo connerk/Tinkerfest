@@ -14,7 +14,7 @@
    id="svg4498"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="DXFLib.dxf">
+   sodipodi:docname="DXFLib.svg">
   <defs
      id="defs4500" />
   <sodipodi:namedview
@@ -30,15 +30,26 @@
      inkscape:cy="-30.363157"
 =======
      inkscape:zoom="0.89054931"
+<<<<<<< HEAD
      inkscape:cx="-302.19761"
      inkscape:cy="-23.27237"
 >>>>>>> refs/remotes/Connerk/master
+=======
+     inkscape:cx="30.884292"
+     inkscape:cy="-5.1181359"
+>>>>>>> refs/heads/customizer
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
+<<<<<<< HEAD
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
+=======
+     inkscape:window-width="1280"
+     inkscape:window-height="1002"
+     inkscape:window-x="-8"
+>>>>>>> refs/heads/customizer
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      units="mm"
@@ -64,7 +75,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -229,7 +240,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="heart"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,-520.86611)"
      sodipodi:insensitive="true">
     <path

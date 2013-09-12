@@ -1,0 +1,5 @@
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\test\test\test\bin\x86\Debug\test.exe
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\test\test\test\bin\x86\Debug\test.pdb
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\test\test\test\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\test\test\test\obj\x86\Debug\test.exe
+C:\Users\Pater\Documents\GitHub\Tinkerfest\GUI\front end\test\test\test\obj\x86\Debug\test.pdb
