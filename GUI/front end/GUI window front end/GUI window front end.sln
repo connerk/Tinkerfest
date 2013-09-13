@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI window front end", "GUI window front end\GUI window front end\GUI window front end.csproj", "{5222E4E0-86F9-44E6-A8E7-EBC75D7A31F0}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "GUI window front endContent", "GUI window front end\GUI window front endContent\GUI window front endContent.contentproj", "{0B49AE30-5BD5-4B3D-955E-5EC28D5DA15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5222E4E0-86F9-44E6-A8E7-EBC75D7A31F0}.Debug|x86.ActiveCfg = Debug|x86
+		{5222E4E0-86F9-44E6-A8E7-EBC75D7A31F0}.Debug|x86.Build.0 = Debug|x86
+		{5222E4E0-86F9-44E6-A8E7-EBC75D7A31F0}.Release|x86.ActiveCfg = Release|x86
+		{5222E4E0-86F9-44E6-A8E7-EBC75D7A31F0}.Release|x86.Build.0 = Release|x86
+		{0B49AE30-5BD5-4B3D-955E-5EC28D5DA15E}.Debug|x86.ActiveCfg = Debug|x86
+		{0B49AE30-5BD5-4B3D-955E-5EC28D5DA15E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
