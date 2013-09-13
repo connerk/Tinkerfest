@@ -67,7 +67,11 @@ plate = 1;
 		
 		word = "Pat"; //5 letters max
 		
+<<<<<<< HEAD
 		shape = "emperial"; //available shapes are HEART, CAT, and STAR
+=======
+		shape = "heart"; //available shapes are HEART, CAT, and STAR
+>>>>>>> 9256513... fix corrupt DXFLib
 		
 		plate_thickness = 1.5;
 
