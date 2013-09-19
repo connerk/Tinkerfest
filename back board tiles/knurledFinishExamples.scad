@@ -43,9 +43,10 @@ PI=3.141592;
  *
  * Example 01 extended to create a large and short bolt.
  */
-
- Makerbolt();
-
+difference(){
+	Flushbolt();
+	phillips();
+ }
 
 
 /* Example 03.
@@ -129,7 +130,49 @@ module Makerbolt()
 //          fnt_str(["M"],1,0,1.1);
     }
 }
+module Flushbolt()
+{
+ /* Bolt parameters.
+  * Just how thick is the head.
+  * The other parameters, common to bolt and nut, are defined into k_cyl() module
+  */
+    b_hg=5;
 
+ /* Screw thread parameters  */
+    t_od=15;    // Thread outer diameter
+    t_st=2.5;   // Step/traveling per turn
+    t_lf=55;    // Step angle degrees
+    t_ln=8;    // Length of the threade section
+    t_rs=PI/2;  // Resolution
+    t_se=1;     // Thread ends style
+    t_gp=0;     // Gap between nut and bolt threads
+
+	/* Flush Head */
+	Cyl_D1 = 22.5;
+	head_bev = .5;
+	
+    difference()
+    {
+        union()
+        {
+			hull(){
+				translate([0,0,head_bev])
+				rotate_extrude(){
+					translate([Cyl_D1/2,0,0])
+					circle(head_bev, $fn = 20);
+				}
+				translate([0,0,b_hg])
+				cylinder(.1,r=t_od/2-0.5);
+			}
+            translate([0,0,b_hg])
+              screw_thread(t_od+t_gp, t_st, t_lf, t_ln, t_rs, t_se);
+        }
+
+//        scale([0.66,0.66,1]) 
+//        translate([-6.5,-1,-0.1]) 
+//          fnt_str(["M"],1,0,1.1);
+    }
+}
 
 /* ****************************************************************************** */
 /* Example 03.
@@ -183,7 +226,14 @@ module k_cyl(bnhg)
 
 
 module phillips(){
-
-	cylinder(2,r=5);
+	d = 3;
+	r = 15;
+	w = 2;
+	translate([0,0,-r+d]){
+	rotate([90,0,0])
+	cylinder(w,r=r, center = true);
+	rotate([0,90,0])
+	cylinder(w,r=r, center = true);
+	}
 }
 

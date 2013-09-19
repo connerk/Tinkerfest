@@ -189,8 +189,9 @@ module tab2(){
 }
 
 module bolt(){
-translate([0,0,5.012+tile_thickness])
+translate([0,0,3.012+tile_thickness])
 scale([.5,.5,.5])
-rotate([180,0,-90])
-import("Makerbolt.stl");
+rotate([180,0,0])
+//import("bolt_1.stl");
+import("Flushbold_Beveled.stl");
 }
