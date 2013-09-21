@@ -22,7 +22,7 @@ t=2;
 
 ring = 1;
 
-		$fn = 40;
+		$fn = 40; 
 		
 		inner_diameter = 20;
 		
@@ -59,19 +59,16 @@ diamond = 0;
 
 		base_plate_thickness = 2;
 
+
 plate = 1;
 		
-		name_plate_diameter = 15; //15 max
+		name_plate_diameter = 12; //15 max
 				
 		add_word = 0; //if this is 1, you can type a word. if this is zero you can choose a shape
 		
-		word = "Pat"; //5 letters max
+		word = "Neal"; //5 letters max
 		
-<<<<<<< HEAD
-		shape = "emperial"; //available shapes are HEART, CAT, and STAR
-=======
-		shape = "heart"; //available shapes are HEART, CAT, and STAR
->>>>>>> 9256513... fix corrupt DXFLib
+		shape = "thundercats96666663333999999936303"; //available shapes are HEART, CAT, and STAR
 		
 		plate_thickness = 1.5;
 
@@ -167,7 +164,7 @@ module plateMod(){
 		cylinder(plate_thickness,r=name_plate_diameter/2);
 		rotate([0,180,0])
 			if(add_word)write(word,center=true);
-			if(!add_word)translate([0,0,plate_thickness-1.01])rotate([180,0,0])stamp(shape,name_plate_diameter*.8,name_plate_diameter*.8,plate_thickness-1);
+			if(!add_word)translate([0,0,-.01])#stamp(shape,name_plate_diameter*.8,name_plate_diameter*.8,plate_thickness-1);
 	}
 	if(ring){
 		translate([0,0,plate_thickness])
